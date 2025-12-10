@@ -1,0 +1,1051 @@
+{
+  "users": [
+    {
+      "id": "1764394495240",
+      "name": "Aboobacker shahid",
+      "email": "shahid@gmail.com",
+      "password": "123123",
+      "role": "user",
+      "createdAt": "2025-11-29T05:34:55.240Z"
+    },
+    {
+      "id": "1764571260624",
+      "name": "shahnaz",
+      "email": "shanu@gmail.com",
+      "password": "123123",
+      "role": "user",
+      "createdAt": "2025-12-01T06:41:00.624Z"
+    },
+    {
+      "id": "1764647794395",
+      "name": "Razik",
+      "email": "razi1@gmail.com",
+      "password": "123123",
+      "role": "user",
+      "createdAt": "2025-12-02T03:56:34.395Z",
+      "isActive": false,
+      "isBlocked": true
+    },
+    {
+      "id": "1764680521588",
+      "name": "safawn",
+      "email": "safwan@gmail.com",
+      "password": "123123",
+      "role": "user",
+      "createdAt": "2025-12-02T13:02:01.588Z",
+      "isActive": true
+    },
+    {
+      "id": "1764846766911.967",
+      "name": "Abdul kareem",
+      "email": "kareem1@gmail.com",
+      "phone": "9746687046",
+      "address": "kareem munzil P.O pavoor manjeshwer",
+      "city": "kasaragod",
+      "pincode": "671323",
+      "role": "user",
+      "isActive": true,
+      "updatedAt": "2025-12-04T11:12:46.911Z",
+      "password": "123123",
+      "createdAt": "2025-12-04T11:12:46.911Z"
+    },
+    {
+      "id": "BAGZO1701600000001",
+      "name": "Aboobacker shahid",
+      "email": "abushahid@gmail.com",
+      "password": "123123",
+      "role": "admin",
+      "isAdmin": "true",
+      "isActive": true
+    },
+    {
+      "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.8.0",
+        "axios": "^1.6.0",
+        "formik": "^2.4.0",
+        "yup": "^1.3.0"
+      },
+      "id": "71a7"
+    },
+    {
+      "id": "1765015604545",
+      "name": "Razik",
+      "email": "razi1@gmail.com",
+      "password": "123123",
+      "createdAt": "2025-12-06T10:06:44.545Z",
+      "role": "user",
+      "isAdmin": false,
+      "isActive": true,
+      "isBlocked": false
+    },
+    {
+      "id": "1765180422108",
+      "name": "Nawaf",
+      "email": "nawaf@gmail.com",
+      "password": "123123",
+      "createdAt": "2025-12-08T07:53:42.108Z",
+      "role": "user",
+      "isAdmin": false,
+      "isActive": true,
+      "isBlocked": false
+    }
+  ],
+  "cart": [
+    {
+      "id": "1",
+      "userId": 1764394495240,
+      "productId": 1,
+      "quantity": 1,
+      "addedAt": "2025-12-03T10:30:00.000Z"
+    },
+    {
+      "id": "2",
+      "userId": 1764394495240,
+      "productId": 3,
+      "quantity": 1,
+      "addedAt": "2025-12-03T11:15:00.000Z"
+    },
+    {
+      "id": "1cad",
+      "userId": 1764571260624,
+      "productId": 3,
+      "quantity": 1,
+      "addedAt": "2025-12-03T05:04:46.414Z"
+    },
+    {
+      "id": "8c59",
+      "userId": 1764571260624,
+      "productId": 4,
+      "quantity": 1,
+      "addedAt": "2025-12-03T05:04:48.170Z"
+    },
+    {
+      "id": "a99c",
+      "userId": 1764244277398,
+      "productId": 1,
+      "quantity": 1,
+      "addedAt": "2025-12-04T10:29:23.663Z"
+    },
+    {
+      "id": "05dd",
+      "userId": 1764846766911.967,
+      "productId": 3,
+      "quantity": 1,
+      "addedAt": "2025-12-04T14:43:34.684Z"
+    },
+    {
+      "id": "3d47",
+      "userId": 1764846766911.967,
+      "productId": 4,
+      "quantity": 1,
+      "addedAt": "2025-12-04T14:43:41.412Z"
+    },
+    {
+      "id": "723e",
+      "userId": 1764846766911.967,
+      "productId": 4,
+      "quantity": 1,
+      "addedAt": "2025-12-04T14:43:42.283Z"
+    },
+    {
+      "id": "9052",
+      "userId": 1764846766911.967,
+      "productId": 3,
+      "quantity": 1,
+      "addedAt": "2025-12-04T14:43:43.658Z"
+    },
+    {
+      "id": "1114",
+      "userId": 1764846766911.967,
+      "productId": 5,
+      "quantity": 1,
+      "addedAt": "2025-12-04T14:43:49.898Z"
+    },
+    {
+      "id": "bda0",
+      "userId": 1764846766911.967,
+      "productId": 5,
+      "quantity": 1,
+      "addedAt": "2025-12-04T14:43:52.306Z"
+    },
+    {
+      "id": "01dd",
+      "userId": 1764846766911.967,
+      "productId": 5,
+      "quantity": 1,
+      "addedAt": "2025-12-04T14:43:53.050Z"
+    },
+    {
+      "id": "01a3",
+      "userId": 1764846766911.967,
+      "productId": 5,
+      "quantity": 1,
+      "addedAt": "2025-12-04T14:43:53.224Z"
+    },
+    {
+      "id": "e0cd",
+      "userId": 1764846766911.967,
+      "productId": 5,
+      "quantity": 1,
+      "addedAt": "2025-12-04T14:43:53.392Z"
+    },
+    {
+      "id": "4a96",
+      "userId": 1764846766911.967,
+      "productId": 5,
+      "quantity": 1,
+      "addedAt": "2025-12-04T14:43:53.550Z"
+    },
+    {
+      "id": "7f24",
+      "userId": 1764846766911.967,
+      "productId": 5,
+      "quantity": 1,
+      "addedAt": "2025-12-04T14:43:53.712Z"
+    },
+    {
+      "id": "0e71",
+      "userId": 1764846766911.967,
+      "productId": 5,
+      "quantity": 1,
+      "addedAt": "2025-12-04T14:43:53.830Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "BAGZO1701600000001",
+      "userId": 1764394495240,
+      "items": [
+        {
+          "id": 1,
+          "name": "Agines Sholder Bag",
+          "price": 1800,
+          "quantity": 2,
+          "image": "/assets/AGNES SHOLDER BAG.webp",
+          "category": "Bags"
+        }
+      ],
+      "total": 3600,
+      "tax": 360,
+      "shipping": 0,
+      "finalTotal": 3960,
+      "status": "confirmed",
+      "date": "2025-12-03T10:30:00.000Z",
+      "shippingAddress": {
+        "name": "Aboobacker shahid",
+        "email": "shahid@gmail.com",
+        "phone": "9876543210",
+        "address": "123 Main St",
+        "city": "Bangalore",
+        "pincode": "560001"
+      },
+      "paymentMethod": "upi",
+      "paymentStatus": "completed"
+    },
+    {
+      "id": "ORD1764738365584106",
+      "userId": 1764680521588,
+      "items": [
+        {
+          "id": 4,
+          "name": "Kaliber Solder Bag",
+          "price": 3200,
+          "originalPrice": 3880,
+          "image": "/assets/bag2.webp",
+          "category": "Bags",
+          "rating": 4.5,
+          "isNew": true,
+          "isOnSale": true,
+          "quantity": 1,
+          "cartItemId": "0978",
+          "addedAt": "2025-12-03T05:05:05.338Z"
+        }
+      ],
+      "total": 3520,
+      "tax": 320,
+      "shipping": 0,
+      "finalTotal": 3520.0000000000005,
+      "status": "confirmed",
+      "date": "2025-12-03T05:06:05.584Z",
+      "shippingAddress": {
+        "name": "safawn",
+        "phone": "9995570466",
+        "address": "Razik Munzil P.o pavooor manjeshwer",
+        "city": "kasaragod",
+        "pincode": "671323",
+        "paymentMethod": "card"
+      },
+      "paymentMethod": "Credit/Debit Card",
+      "paymentStatus": "completed"
+    },
+    {
+      "id": "ORD1764738418597743",
+      "userId": 1764680521588,
+      "items": [
+        {
+          "id": 17,
+          "name": "Amber Clutch",
+          "price": 1400,
+          "originalPrice": 1799,
+          "image": "/assets/AMBER CLUTCH.webp",
+          "category": "Bags",
+          "rating": 4.5,
+          "isNew": true,
+          "isOnSale": true,
+          "quantity": 1,
+          "cartItemId": "ac3c",
+          "addedAt": "2025-12-03T05:06:45.012Z"
+        }
+      ],
+      "total": 1590,
+      "tax": 140,
+      "shipping": 0,
+      "finalTotal": 1540.0000000000002,
+      "status": "shipped",
+      "date": "2025-12-03T05:06:58.597Z",
+      "shippingAddress": {
+        "name": "safawn",
+        "phone": "9995570466",
+        "address": "Razik Munzil P.o pavooor manjeshwer",
+        "city": "kasaragod",
+        "pincode": "671323",
+        "paymentMethod": "cod"
+      },
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "pending"
+    },
+    {
+      "id": "ORD17647387057677753",
+      "userId": 1764680521588,
+      "items": [
+        {
+          "id": 3,
+          "name": "Varmond Hand Bag",
+          "price": 2200,
+          "originalPrice": 2500,
+          "image": "/assets/bag1.webp",
+          "category": "Bags",
+          "rating": 4.5,
+          "isNew": true,
+          "isOnSale": true,
+          "quantity": 1,
+          "cartItemId": "9ed9",
+          "addedAt": "2025-12-03T05:10:30.902Z"
+        }
+      ],
+      "total": 2420,
+      "tax": 220,
+      "shipping": 0,
+      "finalTotal": 2420,
+      "status": "delivered",
+      "date": "2025-12-03T05:11:45.767Z",
+      "shippingAddress": {
+        "name": "safawn",
+        "phone": "9746687046",
+        "address": "safwan munzil po pavoor munzil",
+        "city": "kasaragod",
+        "pincode": "671323",
+        "paymentMethod": "upi"
+      },
+      "paymentMethod": "UPI Payment",
+      "paymentStatus": "completed"
+    },
+    {
+      "id": "ORD17647632934543604",
+      "userId": 1764680521588,
+      "items": [
+        {
+          "id": 3,
+          "name": "Varmond Hand Bag",
+          "price": 2200,
+          "originalPrice": 2500,
+          "image": "/assets/bag1.webp",
+          "category": "Bags",
+          "rating": 4.5,
+          "isNew": true,
+          "isOnSale": true,
+          "quantity": 1,
+          "cartItemId": "f934",
+          "addedAt": "2025-12-03T05:18:18.992Z"
+        },
+        {
+          "id": 4,
+          "name": "Kaliber Solder Bag",
+          "price": 3200,
+          "originalPrice": 3880,
+          "image": "/assets/bag2.webp",
+          "category": "Bags",
+          "rating": 4.5,
+          "isNew": true,
+          "isOnSale": true,
+          "quantity": 2,
+          "cartItemId": "0733",
+          "addedAt": "2025-12-03T05:18:20.311Z"
+        },
+        {
+          "id": 5,
+          "name": "Lether Hand Bag",
+          "price": 1990,
+          "originalPrice": 2100,
+          "image": "/assets/bag3.webp",
+          "category": "Bags",
+          "rating": 4.5,
+          "isNew": true,
+          "isOnSale": true,
+          "quantity": 1,
+          "cartItemId": "a5c4",
+          "addedAt": "2025-12-03T05:18:22.038Z"
+        },
+        {
+          "id": 1,
+          "name": "Agines Sholder Bag",
+          "price": 1800,
+          "originalPrice": 2000,
+          "image": "/assets/AGNES SHOLDER BAG.webp",
+          "category": "Bags",
+          "rating": 4.5,
+          "isNew": true,
+          "isOnSale": true,
+          "quantity": 1,
+          "cartItemId": "a4cc",
+          "addedAt": "2025-12-03T05:18:24.591Z"
+        },
+        {
+          "id": 2,
+          "name": "Sierra Handbag",
+          "price": 2409,
+          "originalPrice": 2800,
+          "image": "/assets/sierra handbag.webp",
+          "category": "Bags",
+          "rating": 4.5,
+          "isNew": true,
+          "isOnSale": true,
+          "quantity": 1,
+          "cartItemId": "5363",
+          "addedAt": "2025-12-03T05:18:25.934Z"
+        }
+      ],
+      "total": 16328.9,
+      "tax": 1479.9,
+      "shipping": 0,
+      "finalTotal": 16278.900000000001,
+      "status": "delivered",
+      "date": "2025-12-03T12:01:33.454Z",
+      "shippingAddress": {
+        "name": "safawn",
+        "phone": "9746687046",
+        "address": "safwan munzil po pavoor munzil",
+        "city": "kasaragod",
+        "pincode": "671323",
+        "paymentMethod": "cod"
+      },
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "pending"
+    },
+    {
+      "id": "ORD17648594869364063",
+      "userId": 1764680521588,
+      "items": [
+        {
+          "id": 3,
+          "name": "Varmond Hand Bag",
+          "price": 2200,
+          "originalPrice": 2500,
+          "image": "/assets/bag1.webp",
+          "category": "Bags",
+          "rating": 4.5,
+          "isNew": true,
+          "isOnSale": true,
+          "quantity": 1,
+          "cartItemId": "a6e6",
+          "addedAt": "2025-12-04T14:44:23.446Z"
+        }
+      ],
+      "total": 2470,
+      "tax": 220,
+      "shipping": 0,
+      "finalTotal": 2420,
+      "status": "delivered",
+      "date": "2025-12-04T14:44:46.936Z",
+      "shippingAddress": {
+        "name": "safawn",
+        "phone": "9746687046",
+        "address": "safwan munzil po pavoor munzil",
+        "city": "kasaragod",
+        "pincode": "671323",
+        "paymentMethod": "cod"
+      },
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "pending"
+    },
+    {
+      "id": "ORD1764913300901462",
+      "userId": 1764680521588,
+      "items": [
+        {
+          "id": 17,
+          "name": "Amber Clutch",
+          "price": 1400,
+          "originalPrice": 1799,
+          "image": "/assets/AMBER CLUTCH.webp",
+          "category": "Bags",
+          "rating": 4.5,
+          "isNew": true,
+          "isOnSale": true,
+          "quantity": 1,
+          "cartItemId": "731b",
+          "addedAt": "2025-12-05T05:39:59.958Z"
+        }
+      ],
+      "total": 1590,
+      "tax": 140,
+      "shipping": 0,
+      "finalTotal": 1540.0000000000002,
+      "status": "pending",
+      "date": "2025-12-05T05:41:40.901Z",
+      "shippingAddress": {
+        "name": "safawn",
+        "phone": "9746687046",
+        "address": "safwan munzil po pavoor munzil",
+        "city": "kasaragod",
+        "pincode": "671323",
+        "paymentMethod": "cod"
+      },
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "pending"
+    },
+    {
+      "id": "ORD17649147323145212",
+      "userId": "BAGZO1701600000001",
+      "items": [
+        {
+          "id": 4,
+          "name": "Kaliber Solder Bag",
+          "price": 3200,
+          "originalPrice": 3880,
+          "image": "/assets/bag2.webp",
+          "category": "Bags",
+          "rating": 4.5,
+          "isNew": true,
+          "isOnSale": true,
+          "quantity": 1,
+          "cartItemId": "3f69",
+          "addedAt": "2025-12-05T06:04:32.031Z"
+        }
+      ],
+      "total": 3520,
+      "tax": 320,
+      "shipping": 0,
+      "finalTotal": 3520.0000000000005,
+      "status": "confirmed",
+      "date": "2025-12-05T06:05:32.314Z",
+      "shippingAddress": {
+        "name": "Aboobacker shahid",
+        "phone": "9746687046",
+        "address": "safwan munzil po pavoor munzil",
+        "city": "kasaragod",
+        "pincode": "671323",
+        "paymentMethod": "card"
+      },
+      "paymentMethod": "Credit/Debit Card",
+      "paymentStatus": "completed"
+    },
+    {
+      "id": "ORD17649147348299443",
+      "userId": "BAGZO1701600000001",
+      "items": [],
+      "total": 0,
+      "tax": 0,
+      "shipping": 0,
+      "finalTotal": 0,
+      "status": "confirmed",
+      "date": "2025-12-05T06:05:34.829Z",
+      "shippingAddress": {
+        "name": "Aboobacker shahid",
+        "phone": "9746687046",
+        "address": "safwan munzil po pavoor munzil",
+        "city": "kasaragod",
+        "pincode": "671323",
+        "paymentMethod": "card"
+      },
+      "paymentMethod": "Credit/Debit Card",
+      "paymentStatus": "completed"
+    },
+    {
+      "id": "ORD17649456966416523",
+      "userId": "1764680521588",
+      "items": [
+        {
+          "id": "8",
+          "name": "Cabrilla Tote Bag",
+          "price": 3199,
+          "originalPrice": 3303,
+          "image": "/assets/cabriella tote bag.webp",
+          "category": "Bags",
+          "rating": 4.5,
+          "isNew": true,
+          "isOnSale": true,
+          "quantity": 1,
+          "cartItemId": "75b6",
+          "addedAt": "2025-12-05T14:41:23.105Z"
+        }
+      ],
+      "total": 3568.9,
+      "tax": 319.90000000000003,
+      "shipping": 0,
+      "finalTotal": 3518.9,
+      "status": "pending",
+      "date": "2025-12-05T14:41:36.646Z",
+      "shippingAddress": {
+        "name": "safawn",
+        "phone": "9746687046",
+        "address": "safwan munzil po pavoor munzil",
+        "city": "kasaragod",
+        "pincode": "671323",
+        "paymentMethod": "cod"
+      },
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "pending"
+    },
+    {
+      "id": "ORD17649468557095075",
+      "userId": "1764680521588",
+      "items": [
+        {
+          "id": "3",
+          "name": "Varmond Hand Bag",
+          "price": 2200,
+          "originalPrice": 2500,
+          "image": "/assets/bag1.webp",
+          "category": "Bags",
+          "rating": 4.5,
+          "isNew": true,
+          "isOnSale": true,
+          "quantity": 1,
+          "cartItemId": "0ec4",
+          "addedAt": "2025-12-05T15:00:33.706Z"
+        }
+      ],
+      "total": 2470,
+      "tax": 220,
+      "shipping": 0,
+      "finalTotal": 2420,
+      "status": "shipped",
+      "date": "2025-12-05T15:00:55.709Z",
+      "shippingAddress": {
+        "name": "safawn",
+        "phone": "9746687046",
+        "address": "safwan munzil po pavoor munzil",
+        "city": "kasaragod",
+        "pincode": "671323",
+        "paymentMethod": "cod"
+      },
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "pending"
+    },
+    {
+      "id": "ORD17650070254292930",
+      "userId": "BAGZO1701600000001",
+      "items": [
+        {
+          "id": "2",
+          "name": "Sierra Handbag",
+          "price": 2409,
+          "originalPrice": 2800,
+          "image": "/assets/sierra handbag.webp",
+          "category": "Bags",
+          "rating": 4.5,
+          "isNew": true,
+          "isOnSale": true,
+          "quantity": 1,
+          "cartItemId": "cf1a",
+          "addedAt": "2025-12-06T04:05:42.344Z"
+        }
+      ],
+      "total": 2699.9,
+      "tax": 240.9,
+      "shipping": 0,
+      "finalTotal": 2649.9,
+      "status": "pending",
+      "date": "2025-12-06T07:43:45.429Z",
+      "shippingAddress": {
+        "name": "Aboobacker shahid",
+        "phone": "9746687046",
+        "address": "safwan munzil po pavoor munzil",
+        "city": "kasaragod",
+        "pincode": "671323",
+        "paymentMethod": "cod"
+      },
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "pending"
+    },
+    {
+      "id": "ORD17650139416767234",
+      "userId": "1764680521588",
+      "items": [
+        {
+          "id": "3",
+          "name": "Varmond Hand Bag",
+          "price": 2200,
+          "originalPrice": 2500,
+          "image": "/assets/bag1.webp",
+          "category": "Bags",
+          "rating": 4.5,
+          "isNew": true,
+          "isOnSale": true,
+          "quantity": 1,
+          "cartItemId": "bd06",
+          "addedAt": "2025-12-06T09:38:31.388Z"
+        }
+      ],
+      "total": 2470,
+      "tax": 220,
+      "shipping": 0,
+      "finalTotal": 2420,
+      "status": "delivered",
+      "date": "2025-12-06T09:39:01.676Z",
+      "shippingAddress": {
+        "name": "safawn",
+        "phone": "9746687046",
+        "address": "safwan munzil po pavoor munzil",
+        "city": "kasaragod",
+        "pincode": "671323",
+        "paymentMethod": "cod"
+      },
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "pending"
+    },
+    {
+      "id": "ORD17651057105183074",
+      "userId": "BAGZO1701600000001",
+      "items": [
+        {
+          "id": "3",
+          "name": "Varmond Hand Bag",
+          "price": 2200,
+          "originalPrice": 2500,
+          "image": "/assets/bag1.webp",
+          "category": "Bags",
+          "rating": 4.5,
+          "isNew": true,
+          "isOnSale": true,
+          "quantity": 1,
+          "cartItemId": "f280",
+          "addedAt": "2025-12-07T11:08:16.561Z"
+        }
+      ],
+      "total": 2470,
+      "tax": 220,
+      "shipping": 0,
+      "finalTotal": 2420,
+      "status": "cancelled",
+      "date": "2025-12-07T11:08:30.518Z",
+      "shippingAddress": {
+        "name": "Aboobacker shahid",
+        "phone": "9746687046",
+        "address": "safwan munzil po pavoor munzil",
+        "city": "kasaragod",
+        "pincode": "671323",
+        "paymentMethod": "cod"
+      },
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "pending"
+    },
+    {
+      "id": "ORD17651680486524769",
+      "userId": "1764680521588",
+      "items": [
+        {
+          "id": "2",
+          "name": "Sierra Handbag",
+          "price": 2409,
+          "originalPrice": 2800,
+          "image": "/assets/sierra handbag.webp",
+          "category": "Bags",
+          "rating": 4.5,
+          "isNew": true,
+          "isOnSale": true,
+          "quantity": 1,
+          "cartItemId": "af9a",
+          "addedAt": "2025-12-07T08:20:18.797Z"
+        }
+      ],
+      "total": 2699.9,
+      "tax": 240.9,
+      "shipping": 0,
+      "finalTotal": 2649.9,
+      "status": "pending",
+      "date": "2025-12-08T04:27:28.652Z",
+      "shippingAddress": {
+        "name": "safawn",
+        "phone": "9746687046",
+        "address": "safwan munzil po pavoor munzil",
+        "city": "kasaragod",
+        "pincode": "671323",
+        "paymentMethod": "cod"
+      },
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "pending"
+    },
+    {
+      "id": "ORD17652069066979727",
+      "userId": "1764680521588",
+      "items": [
+        {
+          "id": "2",
+          "name": "Sierra Handbag",
+          "price": 2409,
+          "originalPrice": 2800,
+          "image": "/assets/sierra handbag.webp",
+          "category": "Bags",
+          "rating": 4.5,
+          "isNew": true,
+          "isOnSale": true,
+          "quantity": 1,
+          "cartItemId": "953a",
+          "addedAt": "2025-12-08T15:14:20.133Z"
+        }
+      ],
+      "total": 2699.9,
+      "tax": 240.9,
+      "shipping": 0,
+      "finalTotal": 2649.9,
+      "status": "delivered",
+      "date": "2025-12-08T15:15:06.697Z",
+      "shippingAddress": {
+        "name": "safawn",
+        "phone": "9746687046",
+        "address": "safwan munzil P.O pavoor manjeshwer",
+        "city": "kasaragod",
+        "pincode": "671323",
+        "paymentMethod": "cod"
+      },
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "pending"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Agines Sholder Bag",
+      "price": 1800,
+      "originalPrice": 2000,
+      "image": "/assets/AGNES SHOLDER BAG.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    },
+    {
+      "id": "2",
+      "name": "Sierra Handbag",
+      "price": 2409,
+      "originalPrice": 2800,
+      "image": "/assets/sierra handbag.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    },
+    {
+      "id": "3",
+      "name": "Varmond Hand Bag",
+      "price": 2200,
+      "originalPrice": 2500,
+      "image": "/assets/bag1.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    },
+    {
+      "id": "4",
+      "name": "Kaliber Solder Bag",
+      "price": 3200,
+      "originalPrice": 3880,
+      "image": "/assets/bag2.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    },
+    {
+      "id": "5",
+      "name": "Lether Hand Bag",
+      "price": 1990,
+      "originalPrice": 2100,
+      "image": "/assets/bag3.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    },
+    {
+      "id": "6",
+      "name": "Sholder Bag",
+      "price": 1500,
+      "originalPrice": 1900,
+      "image": "/assets/DOTTY SHOLDER BAG.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    },
+    {
+      "id": "7",
+      "name": "Lair Hand Bag",
+      "price": 3100,
+      "originalPrice": 3499,
+      "image": "/assets/BLAIR handbag.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    },
+    {
+      "id": "8",
+      "name": "Cabrilla Tote Bag",
+      "price": 3199,
+      "originalPrice": 3303,
+      "image": "/assets/cabriella tote bag.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    },
+    {
+      "id": "9",
+      "name": "Milla Denim Mini Bag",
+      "price": 1109,
+      "originalPrice": 1409,
+      "image": "/assets/mini chain.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    },
+    {
+      "id": "10",
+      "name": "Dolk Totebag",
+      "price": 2600,
+      "originalPrice": 3000,
+      "image": "/assets/dolkata totebag.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    },
+    {
+      "id": "11",
+      "name": "Shan Bag",
+      "price": 2000,
+      "originalPrice": 2100,
+      "image": "/assets/yellow.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    },
+    {
+      "id": "12",
+      "name": "Gloria Hobo Bag",
+      "price": 1800,
+      "originalPrice": 2000,
+      "image": "/assets/GLORIA HOBO BAG.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    },
+    {
+      "id": "13",
+      "name": "Handle Hobo Bag",
+      "price": 3000,
+      "originalPrice": 3189,
+      "image": "/assets/HANDLE HOBO BAG.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    },
+    {
+      "id": "14",
+      "name": "Hazel Clutch",
+      "price": 2500,
+      "originalPrice": 2799,
+      "image": "/assets/HAZEL CLUTCH.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    },
+    {
+      "id": "15",
+      "name": "IsaBella Sholdez Bag",
+      "price": 2399,
+      "originalPrice": 2790,
+      "image": "/assets/maroon bag.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    },
+    {
+      "id": "16",
+      "name": "Sera Clutch Bag",
+      "price": 1899,
+      "originalPrice": 4000,
+      "image": "/assets/SERA CLUTCH BAG.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    },
+    {
+      "id": "17",
+      "name": "Amber Clutch",
+      "price": 1400,
+      "originalPrice": 1799,
+      "image": "/assets/AMBER CLUTCH.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    },
+    {
+      "id": "18",
+      "name": "Handbags",
+      "price": 3799,
+      "originalPrice": 4100,
+      "image": "/assets/SOFT SHOLDER BAG.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    },
+    {
+      "id": "19",
+      "name": "Handbags",
+      "price": 3799,
+      "originalPrice": 4100,
+      "image": "/assets/side bag.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    },
+    {
+      "id": "20",
+      "name": "Handbags",
+      "price": 3799,
+      "originalPrice": 4100,
+      "image": "/assets/effie solder bag.webp",
+      "category": "Bags",
+      "rating": 4.5,
+      "isNew": true,
+      "isOnSale": true
+    }
+  ]
+}
