@@ -247,17 +247,14 @@ function Card() {
                         </svg>
                       </button>
                       
-                      {/* Quick Add to Cart - Luxury */}
+                      {/* Quick Add to Cart - White button without hover effect */}
                       <div className={`absolute bottom-0 left-0 right-0 transform transition-all duration-500 ${
                         hoveredProduct === product.id ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'
                       }`}>
                         <button
                           onClick={(e) => handleAddToCart(e, product)}
-                          className="w-full bg-[#2C1810] text-[#FEFCF5] py-4 text-sm font-light tracking-wider hover:bg-[#B89B6F] transition-all duration-300 flex items-center justify-center gap-3"
+                          className="w-full bg-white text-[#2C1810] py-4 text-sm font-light tracking-wider transition-all duration-300 flex items-center justify-center"
                         >
-                          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
-                          </svg>
                           ADD TO CART
                         </button>
                       </div>
