@@ -824,6 +824,42 @@
       },
       "paymentMethod": "Cash on Delivery",
       "paymentStatus": "pending"
+    },
+    {
+      "id": "ORD17654572612472047",
+      "userId": "1764680521588",
+      "items": [
+        {
+          "id": "3",
+          "name": "Varmond Hand Bag",
+          "price": 2200,
+          "originalPrice": 2500,
+          "image": "/assets/bag1.webp",
+          "category": "Bags",
+          "rating": 4.5,
+          "isNew": true,
+          "isOnSale": true,
+          "quantity": 1,
+          "cartItemId": "328a",
+          "addedAt": "2025-12-11T12:47:25.535Z"
+        }
+      ],
+      "total": 2470,
+      "tax": 220,
+      "shipping": 0,
+      "finalTotal": 2420,
+      "status": "pending",
+      "date": "2025-12-11T12:47:41.247Z",
+      "shippingAddress": {
+        "name": "safawn",
+        "phone": "9746687046",
+        "address": "safwan munzil P.O pavoor manjeshwer",
+        "city": "kasaragod",
+        "pincode": "671323",
+        "paymentMethod": "cod"
+      },
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "pending"
     }
   ],
   "products": [
