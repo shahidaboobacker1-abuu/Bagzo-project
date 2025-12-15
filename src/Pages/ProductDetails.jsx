@@ -25,25 +25,25 @@ function ProductDetails() {
   // Helper function to get image URL
   const getImageUrl = (imagePath) => {
     if (!imagePath) return null;
-    
+
     imagePath = imagePath.trim();
-    
+
     if (imagePath.startsWith('http://') || imagePath.startsWith('https://')) {
       return imagePath;
     }
-    
+
     if (imagePath.startsWith('src/')) {
       imagePath = imagePath.replace('src/', '');
     }
-    
+
     if (imagePath.startsWith('assets/')) {
       return `/${imagePath}`;
     }
-    
+
     if (imagePath.startsWith('/assets/')) {
       return imagePath;
     }
-    
+
     return imagePath.startsWith('/') ? imagePath : `/${imagePath}`;
   };
 
@@ -68,19 +68,19 @@ function ProductDetails() {
   const fetchProductDetails = async () => {
     try {
       setLoading(true);
-      
+
       const response = await api.get('/products');
       const allProducts = response.data;
-      
+
       const foundProduct = allProducts.find(product => {
         return (
-          product.id == id || 
+          product.id == id ||
           product.id === parseInt(id) ||
           product.product_id == id ||
           product.product_id === parseInt(id)
         );
       });
-      
+
       if (foundProduct) {
         console.log('✅ Found product:', foundProduct);
         setProduct(foundProduct);
@@ -89,7 +89,7 @@ function ProductDetails() {
         console.log('❌ Product not found.');
         setError(`Product with ID "${id}" not found.`);
       }
-      
+
       setLoading(false);
     } catch (error) {
       console.error('🚨 Error fetching products:', error);
@@ -100,14 +100,14 @@ function ProductDetails() {
 
   const handleAddToCart = () => {
     if (!product) return;
-    
+
     addToCart(product, quantity);
     console.log(`✅ Added ${quantity} ${product.name} to cart!`);
   };
 
   const handleWishlistToggle = () => {
     if (!product) return;
-    
+
     if (!isAuthenticated) {
       alert('Please login to add items to your wishlist');
       navigate('/login');
@@ -182,20 +182,20 @@ function ProductDetails() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F8F4E1] py-4 border-b border-[#5c4024]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex justify-between items-center">
-            <button 
+            <button
               onClick={() => navigate('/')}
               className="text-2xl font-light tracking-widest text-[#2C1810] hover:text-[#AF8F6F] transition-colors"
             >
               BAGZO
             </button>
             <div className="flex items-center space-x-8">
-              <button 
+              <button
                 onClick={handleBackToProducts}
                 className="text-sm tracking-wider text-[#2C1810] hover:text-[#AF8F6F] transition-colors font-light"
               >
                 COLLECTION
               </button>
-              <button 
+              <button
                 onClick={() => navigate('/cart')}
                 className="text-sm tracking-wider text-[#2C1810] hover:text-[#AF8F6F] transition-colors font-light"
               >
@@ -212,14 +212,14 @@ function ProductDetails() {
           {/* Breadcrumb */}
           <div className="mb-8">
             <nav className="flex items-center text-sm text-[#5A4738] font-light tracking-wider">
-              <button 
+              <button
                 onClick={() => navigate('/')}
                 className="hover:text-[#2C1810] transition-colors"
               >
                 HOME
               </button>
               <span className="mx-3">/</span>
-              <button 
+              <button
                 onClick={handleBackToProducts}
                 className="hover:text-[#2C1810] transition-colors"
               >
@@ -258,7 +258,7 @@ function ProductDetails() {
                     </div>
                   )}
                 </div>
-                
+
                 {/* Product Badges */}
                 <div className="absolute top-4 left-4 flex gap-2">
                   {product.isNew && (
@@ -296,21 +296,20 @@ function ProductDetails() {
                     <h1 className="text-3xl font-light text-[#2C1810] tracking-tight leading-snug">
                       {product.name}
                     </h1>
-                    
+
                     {/* Rating */}
                     <div className="flex items-center space-x-3 mt-3">
                       <div className="flex items-center">
                         {[...Array(5)].map((_, i) => (
                           <svg
                             key={i}
-                            className={`w-5 h-5 ${
-                              i < Math.floor(product.rating || 5) 
-                                ? 'text-[#2C1810] fill-current' 
+                            className={`w-5 h-5 ${i < Math.floor(product.rating || 5)
+                                ? 'text-[#2C1810] fill-current'
                                 : 'text-gray-300 fill-current'
-                            }`}
+                              }`}
                             viewBox="0 0 20 20"
                           >
-                            <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
+                            <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
                           </svg>
                         ))}
                       </div>
@@ -378,11 +377,10 @@ function ProductDetails() {
                       {/* Cart Button - Main Button */}
                       <button
                         onClick={handleAddToCart}
-                        className={`flex-1 py-4 px-6 rounded-full font-light tracking-widest transition-all duration-300 flex items-center justify-center space-x-3 ${
-                          isProductInCart
+                        className={`flex-1 py-4 px-6 rounded-full font-light tracking-widest transition-all duration-300 flex items-center justify-center space-x-3 ${isProductInCart
                             ? 'bg-gray-800 text-white hover:bg-gray-900'
                             : 'bg-[#2C1810] text-white hover:bg-gray-800'
-                        }`}
+                          }`}
                       >
                         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.5 5.5M7 13l2.5 5.5m0 0L17 21" />
@@ -391,23 +389,22 @@ function ProductDetails() {
                           {isProductInCart ? `ADD MORE (${cartQuantity})` : 'ADD TO CART'}
                         </span>
                       </button>
-                      
+
                       {/* Wishlist Button - Side Button */}
                       <button
                         onClick={handleWishlistToggle}
-                        className={`w-14 h-14 flex items-center justify-center rounded-full border font-light tracking-widest transition-all duration-300 ${
-                          isProductInWishlist
+                        className={`w-14 h-14 flex items-center justify-center rounded-full border font-light tracking-widest transition-all duration-300 ${isProductInWishlist
                             ? 'border-[#2C1810] text-[#2C1810] bg-white hover:bg-gray-50'
                             : 'border-gray-300 text-gray-700 hover:border-[#2C1810] hover:text-[#2C1810]'
-                        }`}
+                          }`}
                       >
-                        <svg 
-                          className={`w-6 h-6 ${isProductInWishlist ? 'fill-[#2C1810]' : 'fill-none'}`} 
-                          stroke="currentColor" 
+                        <svg
+                          className={`w-6 h-6 ${isProductInWishlist ? 'fill-[#2C1810]' : 'fill-none'}`}
+                          stroke="currentColor"
                           viewBox="0 0 24 24"
                           strokeWidth={isProductInWishlist ? 0 : 1.5}
                         >
-                          <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                          <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
                         </svg>
                       </button>
                     </div>
